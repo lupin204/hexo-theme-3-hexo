@@ -544,7 +544,7 @@ $(function () {
         inputChange()
     })
 
-    // 切换到大纲视图
+    // 切换到大纲视图개요보기로전환
     $('#default-panel > .icon-file-tree').on('click', function (e) {
         $(this).parent().hide()
         $('#title-list-nav').hide()
